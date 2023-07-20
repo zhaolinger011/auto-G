@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-#  schedule:
-#    - cron: "3,9,15,21,29 * *"
+  schedule:
+    - cron: "*/50 10 3,9,15,21,29 * *"
 
 jobs:
   autogreen:
